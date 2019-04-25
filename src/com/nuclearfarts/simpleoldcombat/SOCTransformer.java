@@ -11,11 +11,6 @@ import static org.objectweb.asm.Opcodes.*;
 import net.minecraft.launchwrapper.IClassTransformer;
 
 public class SOCTransformer implements IClassTransformer {
-
-	
-	public SOCTransformer() {
-		System.out.println("transformer initialized");
-	}
 	
 	@Override
 	public byte[] transform(String name, String transformedName, byte[] basicClass) {
@@ -26,13 +21,12 @@ public class SOCTransformer implements IClassTransformer {
 	}
 	
 	private byte[] transformEntityPlayer(byte[] basicClass) {
-		System.out.println("EntityPlayer/avx");
+		System.out.println("found EntityPlayer/avx");
 		ClassNode classNode = new ClassNode();
 		ClassReader classReader = new ClassReader(basicClass);
 		classReader.accept(classNode, 0);
 		
 		for(MethodNode m : classNode.methods) {
-			System.out.println(m.name);
 			if(m.name.equals("s") && m.desc.equals("(F)F")) {
 				System.out.println("found method");
 				m.instructions.clear();
