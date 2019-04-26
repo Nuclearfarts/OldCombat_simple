@@ -18,6 +18,7 @@ public class SimpleOldCombatTweaker implements ITweaker {
 	private List<String> standaloneArgs;
 	
 	//stolen from FML
+	@SuppressWarnings("unchecked")
 	@Override
 	public void acceptOptions(List<String> args, File gameDir, File assetsDir, String profile) {
 
@@ -50,15 +51,15 @@ public class SimpleOldCombatTweaker implements ITweaker {
 			}
 		}
 
-		if (!this.launchArgs.containsKey("--version")) {
+		if (!Statics.isServer && !this.launchArgs.containsKey("--version")) {
 			launchArgs.put("--version", profile != null ? profile : "UnknownFMLProfile");
 		}
 
-		if (!this.launchArgs.containsKey("--gameDir") && gameDir != null) {
+		if (!Statics.isServer && !this.launchArgs.containsKey("--gameDir") && gameDir != null) {
 			launchArgs.put("--gameDir", gameDir.getAbsolutePath());
 		}
 
-		if (!this.launchArgs.containsKey("--assetsDir") && assetsDir != null) {
+		if (!Statics.isServer && !this.launchArgs.containsKey("--assetsDir") && assetsDir != null) {
 			launchArgs.put("--assetsDir", assetsDir.getAbsolutePath());
 		}
 
@@ -81,7 +82,7 @@ public class SimpleOldCombatTweaker implements ITweaker {
 
 	@Override
 	public String getLaunchTarget() {
-		return "net.minecraft.client.main.Main";
+		return Statics.isServer ? "net.minecraft.server.MinecraftServer" : "net.minecraft.client.main.Main";
 	}
 
 	@Override
