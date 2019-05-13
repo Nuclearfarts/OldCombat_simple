@@ -1,18 +1,17 @@
 {
-  "inheritsFrom": "1.14",
-  "jar": "1.14",
-  "id": "1.14-oldcombat",
+  "inheritsFrom": "1.14.1",
+  "id": "1.14.1-oldcombat",
   "time": "2019-04-23T10:52:44-04:00",
   "releaseTime": "2019-04-23T10:52:44-04:00",
   "type": "release",
   "libraries": [
     {
-      "name": "com.nuclearfarts:oldcombat:1.0.1",
+      "name": "com.nuclearfarts:oldcombat:1.1.0",
       "downloads": {
         "artifact": {
-          "url": "https://github.com/Nuclearfarts/OldCombat_simple/raw/master/oldcombat-1.0.1.jar",
-          "sha1": "170cc7b9a19bea96f2f1ef746aed0ff9cf4f1783",
-          "size": 4416
+          "url": "https://github.com/Nuclearfarts/OldCombat_simple/raw/master/releases/1.14.1/oldcombat-1.1.0.jar",
+          "sha1": "35029c9bd4abbde50a701763dcdd3d642171c8ab",
+          "size": 5714
         }
       }
     },
@@ -59,5 +58,6 @@
   ],
   "mainClass": "com.nuclearfarts.simpleoldcombat.FixYourLauncherMojang",
   "minimumLauncherVersion": 0,
+  "jar": "1.14.1",
   "downloads": {}
 }
