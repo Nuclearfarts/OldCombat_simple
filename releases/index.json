@@ -1,0 +1,26 @@
+[
+	{
+		"mcVersion": "1.14.1",
+		"oldcombatVersion": "1.1.0",
+		"mcServerJar": {
+			"url": "https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar",
+			"sha1": "ED76D597A44C5266BE2A7FCD77A8270F1F0BC118",
+			"size": 35927691
+		},
+		"clientJson": {
+			"url": "https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar",
+			"sha1": "ED76D597A44C5266BE2A7FCD77A8270F1F0BC118",
+			"size": 35927691
+		},
+		"clientJar": {
+			"url": "https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar",
+			"sha1": "ED76D597A44C5266BE2A7FCD77A8270F1F0BC118",
+			"size": 35927691
+		},
+		"serverJar": {
+			"url": "https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar",
+			"sha1": "ED76D597A44C5266BE2A7FCD77A8270F1F0BC118",
+			"size": 35927691
+		}
+	}
+]
