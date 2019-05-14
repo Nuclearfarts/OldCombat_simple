@@ -8,19 +8,14 @@
 			"size": 35927691
 		},
 		"clientJson": {
-			"url": "https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar",
-			"sha1": "ED76D597A44C5266BE2A7FCD77A8270F1F0BC118",
-			"size": 35927691
-		},
-		"clientJar": {
-			"url": "https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar",
-			"sha1": "ED76D597A44C5266BE2A7FCD77A8270F1F0BC118",
-			"size": 35927691
+			"url": "https://github.com/Nuclearfarts/OldCombat_simple/raw/master/releases/1.14.1/oldcombat.json",
+			"sha1": "6DE4F5DCE301FD75E39B406FC093BA26C20D99FA",
+			"size": 1874
 		},
 		"serverJar": {
-			"url": "https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar",
-			"sha1": "ED76D597A44C5266BE2A7FCD77A8270F1F0BC118",
-			"size": 35927691
+			"url": "https://github.com/Nuclearfarts/OldCombat_simple/raw/master/releases/1.14.1/oldcombat-1.1.0-server.jar",
+			"sha1": "883D5DAC86C7C8B1F7015961AD3D0596A3BC9A7E",
+			"size": 272350
 		}
 	}
 ]
