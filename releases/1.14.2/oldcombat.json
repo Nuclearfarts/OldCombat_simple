@@ -1,0 +1,63 @@
+{
+  "inheritsFrom": "1.14.2",
+  "id": "1.14.2-oldcombat",
+  "time": "2019-05-28T10:52:44-04:00",
+  "releaseTime": "2019-05-28T10:52:44-04:00",
+  "type": "release",
+  "libraries": [
+    {
+      "name": "com.nuclearfarts:oldcombat:1.1.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://github.com/Nuclearfarts/OldCombat_simple/raw/master/releases/1.14.1/oldcombat-1.1.0.jar",
+          "sha1": "35029c9bd4abbde50a701763dcdd3d642171c8ab",
+          "size": 5714
+        }
+      }
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.12",
+      "downloads": {
+        "artifact": {
+          "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+          "sha1": "111e7bea9c968cdb3d06ef4632bf7ff0824d0f36",
+          "size": 32999
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm:6.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://files.minecraftforge.net/maven/org/ow2/asm/asm/6.2/asm-6.2.jar",
+          "sha1": "1b6c4ff09ce03f3052429139c2a68e295cae6604",
+          "size": 111214
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-commons:6.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://files.minecraftforge.net/maven/org/ow2/asm/asm-commons/6.2/asm-commons-6.2.jar",
+          "sha1": "f0df1c69e34a0463679d7c8db36ddb4312836e76",
+          "size": 78919
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-tree:6.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://files.minecraftforge.net/maven/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar",
+          "sha1": "61570e046111559f38d4e0e580c005f75988c0a6",
+          "size": 50370
+        }
+      }
+    }
+  ],
+  "mainClass": "com.nuclearfarts.simpleoldcombat.FixYourLauncherMojang",
+  "minimumLauncherVersion": 0,
+  "jar": "1.14.2",
+  "downloads": {}
+}

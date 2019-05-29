@@ -1,5 +1,24 @@
 [
 	{
+		"mcVersion": "1.14.2",
+		"oldcombatVersion": "1.1.0",
+		"mcServerJar": {
+			"url": "https://launcher.mojang.com/v1/objects/808be3869e2ca6b62378f9f4b33c946621620019/server.jar",
+      		"sha1": "808be3869e2ca6b62378f9f4b33c946621620019",
+      		"size": 35932967
+		},
+		"clientJson": {
+			"url": "https://github.com/Nuclearfarts/OldCombat_simple/raw/master/releases/1.14.2/oldcombat.json",
+			"sha1": "6DE4F5DCE301FD75E39B406FC093BA26C20D99FA",
+			"size": 1874
+		},
+		"serverJar": {
+			"url": "https://github.com/Nuclearfarts/OldCombat_simple/raw/master/releases/1.14.1/oldcombat-1.1.0-server.jar",
+			"sha1": "883D5DAC86C7C8B1F7015961AD3D0596A3BC9A7E",
+			"size": 272350
+		}
+	},
+	{
 		"mcVersion": "1.14.1",
 		"oldcombatVersion": "1.1.0",
 		"mcServerJar": {
