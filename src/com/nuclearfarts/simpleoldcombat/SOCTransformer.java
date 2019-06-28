@@ -13,7 +13,7 @@ public class SOCTransformer implements IClassTransformer {
 	
 	@Override
 	public byte[] transform(String name, String transformedName, byte[] basicClass) {
-		if(name.equals("avy")) {
+		if(name.equals("awb")) {
 			return transformEntityPlayer(basicClass);
 		}
 		
@@ -21,7 +21,7 @@ public class SOCTransformer implements IClassTransformer {
 	}
 	
 	private byte[] transformEntityPlayer(byte[] basicClass) {
-		System.out.println("found EntityPlayer/avy");
+		System.out.println("found EntityPlayer/awb");
 		ClassNode classNode = new ClassNode();
 		ClassReader classReader = new ClassReader(basicClass);
 		classReader.accept(classNode, 0);
